@@ -87,7 +87,7 @@
 			PRODUCT_BUNDLE_IDENTIFIER = com.podgotovka.test2026;
 			PRODUCT_NAME = "$(TARGET_NAME)";
 			SWIFT_VERSION = 5.0;
-		};
+		}; };
 		A10000000000000000000071 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
 			CODE_SIGN_STYLE = Automatic;
 			DEVELOPMENT_TEAM = "";
@@ -98,7 +98,7 @@
 			PRODUCT_BUNDLE_IDENTIFIER = com.podgotovka.test2026;
 			PRODUCT_NAME = "$(TARGET_NAME)";
 			SWIFT_VERSION = 5.0;
-		};
+		}; };
 		A10000000000000000000072 /* Project Debug */ = {isa = XCBuildConfiguration; buildSettings = {
 			ALWAYS_SEARCH_USER_PATHS = NO;
 			CLANG_ENABLE_MODULES = YES;
