@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000030 /* PodgotovkaTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* PodgotovkaTestApp.swift */; };
+		A10000000000000000000031 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* AppModel.swift */; };
+		A10000000000000000000032 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* RootView.swift */; };
+		A10000000000000000000033 /* StatsSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* StatsSettingsViews.swift */; };
+		A10000000000000000000034 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* questions.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000003 /* PodgotovkaTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PodgotovkaTestiOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000020 /* PodgotovkaTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PodgotovkaTestApp.swift"; sourceTree = "<group>"; };
+		A10000000000000000000021 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel.swift"; sourceTree = "<group>"; };
+		A10000000000000000000022 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		A10000000000000000000023 /* StatsSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatsSettingsViews.swift"; sourceTree = "<group>"; };
+		A10000000000000000000024 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "questions.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000006 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000010 /* PodgotovkaTestiOS */ = {isa = PBXGroup; children = (
+			A10000000000000000000020 /* PodgotovkaTestApp.swift */,
+			A10000000000000000000011 /* Models */,
+			A10000000000000000000012 /* Views */,
+			A10000000000000000000013 /* Resources */,
+		); path = PodgotovkaTestiOS; sourceTree = "<group>"; };
+		A10000000000000000000011 /* Models */ = {isa = PBXGroup; children = (
+			A10000000000000000000021 /* AppModel.swift */,
+		); path = Models; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Views */ = {isa = PBXGroup; children = (
+			A10000000000000000000022 /* RootView.swift */,
+			A10000000000000000000023 /* StatsSettingsViews.swift */,
+		); path = Views; sourceTree = "<group>"; };
+		A10000000000000000000013 /* Resources */ = {isa = PBXGroup; children = (
+			A10000000000000000000024 /* questions.json */,
+		); path = Resources; sourceTree = "<group>"; };
+		A10000000000000000000001 /* Products */ = {isa = PBXGroup; children = (
+			A10000000000000000000003 /* PodgotovkaTestiOS.app */,
+		); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000002 /* PodgotovkaTestiOS */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000060; buildPhases = (
+			A10000000000000000000004 /* Sources */,
+			A10000000000000000000006 /* Frameworks */,
+			A10000000000000000000005 /* Resources */,
+		); buildRules = (); dependencies = (); name = PodgotovkaTestiOS; productName = PodgotovkaTestiOS; productReference = A10000000000000000000003 /* PodgotovkaTestiOS.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; TargetAttributes = { A10000000000000000000002 = { CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = A10000000000000000000061; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, ru, Base); mainGroup = A10000000000000000000010 /* PodgotovkaTestiOS */; productRefGroup = A10000000000000000000001 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000002 /* PodgotovkaTestiOS */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000034 /* questions.json in Resources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000030 /* PodgotovkaTestApp.swift in Sources */,
+			A10000000000000000000031 /* AppModel.swift in Sources */,
+			A10000000000000000000032 /* RootView.swift in Sources */,
+			A10000000000000000000033 /* StatsSettingsViews.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000070 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "Подготовка к тесту";
+			INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.podgotovka.test2026;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+		};
+		A10000000000000000000071 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = "";
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "Подготовка к тесту";
+			INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.podgotovka.test2026;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+		};
+		A10000000000000000000072 /* Project Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+		}; };
+		A10000000000000000000073 /* Project Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			SWIFT_EMIT_LOC_STRINGS = YES;
+		}; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000060 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000070, A10000000000000000000071); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000061 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000072, A10000000000000000000073); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
